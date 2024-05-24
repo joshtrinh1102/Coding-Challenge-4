@@ -12,14 +12,14 @@ class Car{
             return this.speed + 10 }
     
         calculatebrake(){
-            return this.brake -5
-        }
+            return this.speed -5
+        }}
 
-        }
-        new class EV extends Car{
+        
+class EV extends Car{
             constructor(make,speed,charge){
                 super(make,speed);
-                this.charge;
+                this.charge= charge;
             }
             // Create EV class extending Car with additional charge property.
             chargeBattery(){
@@ -27,10 +27,15 @@ class Car{
                 let charge= chargeTo 
                 }
             //Implement chargeBattery method in EV class}
-            calculateacceleration(){
-                return this.speed +20 
-                return this. charge -1
-                console.log(`Tesla going at:  ${speed}km/h, with a charge of ${charge}%`)}
-            //Override accelerate method in EV class to adjust speed and charge.    
-            }
+    calculateacceleration(){
+                this.speed +20 
+                this.charge-1
+                console.log(`Tesla going at:  ${this.speed}km/h, with a charge of ${this.charge}%`);
+                }}
+            //Override accelerate method in EV class to adjust speed and charge. 
+            
+            
+            
+let Tesla = new EV ('Tesla',120,22)  
+    Tesla.calculateacceleration()//Test EV class methods with different operations
                 
