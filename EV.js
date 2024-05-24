@@ -16,3 +16,8 @@ class Car{
         }
 
         }
+        new class EV extends Car{
+            constructor(make,speed,charge){
+                super(make,speed);
+                this.charge;
+            }}// Create EV class extending Car with additional charge property.
