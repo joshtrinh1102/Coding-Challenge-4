@@ -20,4 +20,9 @@ class Car{
             constructor(make,speed,charge){
                 super(make,speed);
                 this.charge;
-            }}// Create EV class extending Car with additional charge property.
+            }
+            chargeBattery(){
+                const basecharge= charge
+                let charge= chargeTo 
+                }}
+                //Implement chargeBattery method in EV class}// Create EV class extending Car with additional charge property.
